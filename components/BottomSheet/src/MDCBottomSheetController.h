@@ -48,7 +48,7 @@
 
  Changes to this value will be ignored after the bottom sheet controller has been presented.
  */
-@property(nonatomic, weak, nullable) UIScrollView *trackingScrollView;
+@property(nonatomic, strong, nullable) UIScrollView *trackingScrollView;
 
 /**
  This property determines if @c showFlashIndicators is called by default when @c
